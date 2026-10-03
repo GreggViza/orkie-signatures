@@ -93,7 +93,7 @@
     <div class="phead">
       <div>
         <div class="pname">John S</div>
-        <div class="ptitle">Ad campaigns. Get found on Google and AI.</div>
+        <div class="ptitle">Google Ads. Social ads. AI search.</div>
       </div>
       <button class="copy" data-i="3">Copy signature</button>
     </div>
@@ -140,10 +140,23 @@
       <a href="https://orkie.ai/talk/" target="_blank" rel="noopener"><img src="img/signature-vanessa-c-orkie-ai.png" alt="Vanessa C signature"></a>
     </div>
   </section>
+
+  <section class="person" id="leo">
+    <div class="phead">
+      <div>
+        <div class="pname">Leo</div>
+        <div class="ptitle">Chief of Staff to Gregg.</div>
+      </div>
+      <button class="copy" data-i="7">Copy signature</button>
+    </div>
+    <div class="preview">
+      <a href="https://orkie.ai/talk/" target="_blank" rel="noopener"><img src="img/signature-leo-orkie-ai.png" alt="Leo signature"></a>
+    </div>
+  </section>
   <p class="note">If the copy button doesn't work in your browser, right-click your signature image, choose <em>Copy image</em>, and paste that into Gmail instead — then click the image once and use the Link button to point it at orkie.ai/talk/.</p>
 </div>
 <script>
-const PAYLOADS = ["<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-gregg-h-orkie-ai.png\" width=\"480\" alt=\"Gregg H \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-bryan-n-orkie-ai.png\" width=\"480\" alt=\"Bryan N \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-rich-a-orkie-ai.png\" width=\"480\" alt=\"Rich A \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-john-s-orkie-ai.png\" width=\"480\" alt=\"John S \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-ed-a-orkie-ai.png\" width=\"480\" alt=\"Ed A \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-john-c-orkie-ai.png\" width=\"480\" alt=\"John C \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-vanessa-c-orkie-ai.png\" width=\"480\" alt=\"Vanessa C \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>"];
+const PAYLOADS = ["<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-gregg-h-orkie-ai.png\" width=\"480\" alt=\"Gregg H \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-bryan-n-orkie-ai.png\" width=\"480\" alt=\"Bryan N \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-rich-a-orkie-ai.png\" width=\"480\" alt=\"Rich A \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-john-s-orkie-ai.png\" width=\"480\" alt=\"John S \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-ed-a-orkie-ai.png\" width=\"480\" alt=\"Ed A \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-john-c-orkie-ai.png\" width=\"480\" alt=\"John C \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-vanessa-c-orkie-ai.png\" width=\"480\" alt=\"Vanessa C \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>", "<a href=\"https://orkie.ai/talk/\"><img src=\"https://greggviza.github.io/orkie-signatures/img/signature-leo-orkie-ai.png\" width=\"480\" alt=\"Leo \u2014 Orkie.ai\" style=\"display:block;border:0;\"></a>"];
 document.querySelectorAll('button.copy').forEach(btn => {
   btn.addEventListener('click', async () => {
     const html = PAYLOADS[+btn.dataset.i];
